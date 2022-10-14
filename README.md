@@ -1,13 +1,14 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+ /$$$$$$$$        /$$                           /$$                           /$$                          
+|__  $$__/       | $$                          | $$                          | $$                          
+   | $$  /$$$$$$ | $$   /$$  /$$$$$$  /$$$$$$$ | $$        /$$$$$$   /$$$$$$$| $$   /$$  /$$$$$$   /$$$$$$ 
+   | $$ /$$__  $$| $$  /$$/ /$$__  $$| $$__  $$| $$       /$$__  $$ /$$_____/| $$  /$$/ /$$__  $$ /$$__  $$
+   | $$| $$  \ $$| $$$$$$/ | $$$$$$$$| $$  \ $$| $$      | $$  \ $$| $$      | $$$$$$/ | $$$$$$$$| $$  \__/
+   | $$| $$  | $$| $$_  $$ | $$_____/| $$  | $$| $$      | $$  | $$| $$      | $$_  $$ | $$_____/| $$      
+   | $$|  $$$$$$/| $$ \  $$|  $$$$$$$| $$  | $$| $$$$$$$$|  $$$$$$/|  $$$$$$$| $$ \  $$|  $$$$$$$| $$      
+   |__/ \______/ |__/  \__/ \_______/|__/  |__/|________/ \______/  \_______/|__/  \__/ \_______/|__/      
+                                            By: 0xM4R10.eth
+            Messy, unoptimized code from a solidity apprentice, dont use this in production
+                            or lock a significant amount of funds. (please)    
+                    Also, owner can rug all funds in contract (see rugWithdraw())                                
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
