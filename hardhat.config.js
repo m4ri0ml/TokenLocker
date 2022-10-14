@@ -1,7 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomiclabs/hardhat-etherscan");
 
-const { ALCHEMY_API_KEY, PRIVATE_KEY } = require('./credentials');
+const { ALCHEMY_API_KEY, PRIVATE_KEY, ETHERSCAN_KEY } = require('./credentials');
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -14,6 +14,6 @@ module.exports = {
     }
   },
   etherscan: {
-    apiKey: "52A99D5TMQ25RQZCUPG1DXKUX9N7T67CPB"
+    apiKey: [ETHERSCAN_KEY]
   }
 };
